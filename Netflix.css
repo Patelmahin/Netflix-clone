@@ -1,0 +1,191 @@
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+li {
+    padding-left: 20px;
+    transition: all 0.1s 0s ease-in;
+}
+
+li:hover {
+    transform: translatey(-2px);
+    text-shadow: 0px 1px 0.5px white;
+}
+
+a {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.logo {
+    margin-right: 100px;
+    padding-top: 10px;
+
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    z-index: 6;
+
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.overlay {
+    position: absolute;
+
+
+    bottom: 200px;
+    left: 150px;
+    background-color: none;
+    color: white;
+
+}
+
+h1 {
+    font-size: 5em;
+}
+
+.video {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+    z-index: -6;
+
+}
+
+.series img {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 0 20px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.series {
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.movies img {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin: 0 20px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+.movies {
+    overflow: auto;
+    white-space: nowrap;
+
+}
+
+.heading {
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.topimg {
+    width: 200px;
+    height: 300px;
+    margin: 20px 20px;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1012px) {
+    nav {
+        font-size: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .leftBox ul li {
+        margin-right: 10px;
+    }
+
+    header {
+        height: 90px;
+    }
+
+    .overlay h1 {
+        font-size: 30px;
+    }
+
+    .overlay p {
+        font-size: 15px;
+    }
+
+    .overlay {
+        bottom: 350px;
+    }
+
+    .logo {
+        margin-right: 100px;
+    }
+
+    .topimg {
+        margin: 20px 10px;
+    }
+
+
+}
+
+svg {
+    color: white;
+    width: 50px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+
+
+@media(max-width:758px) {
+    nav ul li {
+        display: none;
+    }
+
+    .logo {
+        display: block;
+    }
+
+    svg {
+        display: block;
+    }
+}

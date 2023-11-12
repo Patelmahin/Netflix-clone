@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    padding: 0 5vw;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-around;
+}
+
+.item-center {
+    align-items: center;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.containersec {
+    padding: 0 5vw;
+    margin: auto;
+}
